@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="login">
+            <div class="container" onsubmit="return validateForm()">
+                <h1>Log in</h1>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                <input type="password" id="password" name="password" placeholder="Enter your password" required><br>
+                <input type="checkbox"><span>Remember me</span>
+                <a href="#">Forgot password?</a>
+                <button><a href="dashbord.html" style="text-decoration: none; color: white; text-align: center; justify-content: center;">Log in</a></button>
+                <hr>
+                <p>Or</p>
+                <hr>
+                <ul>
+                    <li><i class="fab fa-facebook-f fa-2x"></i></li>
+                    <li><i class="fab fa-twitter fa-2x"></i></li>
+                    <li><i class="fab fa-github fa-2x"></i></li>
+                    <li><i class="fab fa-linkedin-in fa-2x"></i></li>
+                </ul>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+        <div id="error-modal" class="error-modal">
+            <div class="modal-content">
+              <span id="modal-close" class="close">&times;</span>
+              <p id="modal-message"></p>
+            </div>
+          </div>
+        <div class="register">
+            <div class="container">
+                <i class="fas fa-user-plus fa-5x"></i>
+                <h2>Hello,friend!</h2>
+                <p>Enter your personal details and start journey with us</p>
+                <button><a href="register.html" style="text-decoration: none; color: white;">Register</a>  <i class="fas fa-arrow-circle-right"></i></button>
+            </div>
+        </div>
+    </div>
+    <script src="/script.js"></script>
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+

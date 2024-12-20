@@ -1,0 +1,254 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Navbar Styles */
+  nav {
+    background-color: #333;
+    padding: 10px 20px;
+  }
+  
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .navbar-links li {
+    margin-left: 20px;
+  }
+  
+  .navbar-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  .navbar-links a:hover {
+    color: #f0a500;
+  }
+  
+  /* Main Content */
+  .main-content {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .main-content h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .main-content p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  
+  .buttons a {
+    text-decoration: none;
+    background-color: #f0a500;
+    color: white;
+    padding: 15px 30px;
+    margin: 10px;
+    border-radius: 5px;
+    font-size: 18px;
+  }
+  
+  .buttons a:hover {
+    background-color: #333;
+  }
+  
+  /* About Us Section */
+  .about-us {
+    background-color: #f4f4f4;
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .about-us h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  .about-us p {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .features {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .feature {
+    width: 45%;
+    margin: 10px 0;
+  }
+  
+  .feature h3 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .feature p {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  /* Testimonials Section */
+  .testimonials {
+    background-color: #f8f8f8;
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .testimonials h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  .testimonial-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .testimonial-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 250px;
+  }
+  
+  .testimonial-card p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  .testimonial-card h4 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* FAQ Section */
+  .faq {
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .faq h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  .faq-item {
+    margin-bottom: 15px;
+  }
+  
+  .faq-item h3 {
+    font-size: 24px;
+  }
+  
+  .faq-item p {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  /* Call to Action Banner */
+  .cta-banner {
+    background-color: #333;
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .cta-banner h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .cta-banner p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  
+  .cta-button {
+    background-color: #f0a500;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+  }
+  
+  .cta-button:hover {
+    background-color: #333;
+  }
+  
+  /* Contact Us Section */
+  .contact-us {
+    background-color: #f4f4f4;
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .contact-us form {
+    display: inline-block;
+    text-align: left;
+    max-width: 400px;
+  }
+  
+  .contact-us label {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  .contact-us input, .contact-us textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+  
+  .contact-us button {
+    background-color: #f0a500;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .contact-us button:hover {
+    background-color: #333;
+  }
+  
+  /* Footer Section */
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+  }
+  
+  footer p {
+    font-size: 16px;
+  }
+  

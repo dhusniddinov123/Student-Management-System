@@ -1,0 +1,123 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Navbar Styles */
+  nav {
+    background-color: #333;
+    padding: 10px 20px;
+  }
+  
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .navbar-links li {
+    margin-left: 20px;
+  }
+  
+  .navbar-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  .navbar-links a:hover {
+    color: #f0a500;
+  }
+  
+  /* Dashboard Section */
+  .dashboard {
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .dashboard h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .dashboard p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  
+  /* Add New Student Button */
+  .dashboard-buttons {
+    margin-bottom: 30px;
+  }
+  
+  .dashboard-buttons .button {
+    text-decoration: none;
+    background-color: #f0a500;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-size: 18px;
+  }
+  
+  .dashboard-buttons .button:hover {
+    background-color: #333;
+  }
+  
+  /* Student Table */
+  .student-table {
+    width: 100%;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+  }
+  
+  .student-table h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .student-table table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .student-table th, .student-table td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #ddd;
+  }
+  
+  .student-table th {
+    background-color: #f0a500;
+    color: white;
+  }
+  
+  .student-table td {
+    background-color: white;
+  }
+  
+  .student-table .button-edit, .student-table .button-delete {
+    text-decoration: none;
+    color: white;
+    background-color: #333;
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 5px;
+  }
+  
+  .student-table .button-edit:hover {
+    background-color: #f0a500;
+  }
+  
+  .student-table .button-delete:hover {
+    background-color: #e60000;
+  }
+  

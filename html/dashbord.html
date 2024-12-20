@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard - Student Management System</title>
+  <link rel="stylesheet" href="/style/dashboard.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav>
+    <div class="navbar-container">
+      <a href="#" class="logo" style="text-decoration: none; color: white;">Student Management</a>
+      <ul class="navbar-links">
+        <li><a href="profile.html">Profile</a></li>
+        <li><a href="main.html">Logout</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Dashboard/Management Page -->
+  <section class="dashboard">
+    <h1>Welcome to the Dashboard</h1>
+    <p>Manage your student records easily.</p>
+
+    <!-- Add Student Button -->
+    <div class="dashboard-buttons">
+      <a href="add-student.html" class="button">Add New Student</a>
+    </div>
+
+    <!-- Student Records Table -->
+    <div class="student-table">
+      <h2>Student Records</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Student ID</th>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Class</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>John Doe</td>
+            <td>21</td>
+            <td>Computer Science</td>
+            <td>
+              <a href="edit-student.html" class="button-edit">Edit</a>
+              <a href="delete-student.html" class="button-delete">Delete</a>
+            </td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Jane Smith</td>
+            <td>22</td>
+            <td>Mechanical Engineering</td>
+            <td>
+              <a href="edit-student.html" class="button-edit">Edit</a>
+              <a href="delete-student.html" class="button-delete">Delete</a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
